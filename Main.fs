@@ -26,11 +26,11 @@ module Main =
         while roundNumber < x do
 
 //Create a new player every round (otherwise they would keep their old hand). 
-            let ai1 = new Player.Ai (4)
+            let ai1 = new Player.Ai (1)
             let ai2 = new Player.Ai (2)
-            let ai3 = new Player.Ai (4)
-            let ai4 = new Player.Ai (2)
-            let ai5 = new Player.Ai (4)
+            let ai3 = new Player.Ai (3)
+            let ai4 = new Player.Ai (4)
+            let ai5 = new Player.Ai (5)
             let hum1 = new Player.Human()
             let hum2 = new Player.Human()
             let hum3 = new Player.Human()
@@ -146,6 +146,5 @@ module Main =
         
   let Main = new Main()
 
-  System.Console.Write ("How many game to play?")
-  (Main.Game (int(System.Console.ReadLine())))
-
+  System.Console.Write ("How many games to play?")
+  Main.Game (int(System.Console.ReadLine()))
