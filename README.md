@@ -6,6 +6,8 @@ I made a quick patch to allow Humans players to play. The code needs to be refac
 
 
 Compile in Mono: fsharpc CardDeck.fs Strategy.fs Player.fs Main.fs
+
+
 UnitTest Compile in Mono: fsharpc CardDeck.fs Strategy.fs Player.fs Main.fs UnitTest.fs
 
 
