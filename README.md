@@ -11,3 +11,6 @@ Compile in Mono: fsharpc CardDeck.fs Strategy.fs Player.fs Main.fs
 UnitTest Compile in Mono: fsharpc CardDeck.fs Strategy.fs Player.fs Main.fs UnitTest.fs
 
 
+How to run Main.exe: mono Main.exe
+
+
